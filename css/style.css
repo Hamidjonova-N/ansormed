@@ -67,11 +67,17 @@ a {
   margin-right: 16px;
 }
 
+.container {
+  width: 100%;
+  max-width: 1536px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 /* HEADER */
 
 header {
   width: 100%;
-  height: 100vh;
 }
 
 header nav {
@@ -132,6 +138,7 @@ header nav a:active {
   justify-content: space-between;
   padding-right: 170px;
   padding-left: 170px;
+  margin-bottom: 120px;
 }
 
 .hero-content {
@@ -173,7 +180,6 @@ header nav a:active {
 
 .features {
   width: 100%;
-  padding-top: 120px;
   padding-right: 288px;
   padding-left: 288px;
   display: flex;
